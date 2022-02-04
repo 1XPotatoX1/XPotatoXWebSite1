@@ -1,0 +1,44 @@
+/* Cabeçalho */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-texto{
+    margin-left: 20px;
+    color: white;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu p{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+    bottom: -12px;
+}
+
+/* HR */
+
+hr {
+    position: relative;
+    bottom: -20px;
+}
