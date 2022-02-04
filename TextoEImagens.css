@@ -1,56 +1,83 @@
-<!DOCTYPE html>
-<html lang=br>
+/* Text */
+body { 
+    background-image: url(https://www.pngmagic.com/product_images/website-background-image-size-psd-vector-photo.jpg) ;
+     background-repeat: no-repeat;
+     background-size: cover;
+ 
+ }
 
-<head>
-<title>NOT-ALLOWED</title>
-<link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Not_allowed.svg/1107px-Not_allowed.svg.png">
-<link href="Style/Estilos.css" rel="stylesheet">
-<link href="Style/TextoEImagens.css" rel="stylesheet">
 
-</head>
+.LogoTipo {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 45px;
+    color: greenyellow;
+}
 
-<body>
-    <header>
+.Introdution {
+    font-family: sans-serif;
+    text-indent: 35px;
+    font-size: 20px;
+    color: white;
+    opacity: 0.8;
+    position: relative;
+    bottom: -10px;
+}
 
-        <div class="Container-Logo">
-            <div class="logo-imagem">
-            <div class="logo-texto">
+.Introdution span {
+    color: red;
+}
 
-                <h1 class="LogoTipo"><img src="https://cdn.pixabay.com/photo/2012/04/24/12/29/no-symbol-39767_1280.png"><span>NOT</span>ALLOWED</h1>
+.FAQ {
+    font-family: sans-serif;
+    color: white;
+    position: relative;
+    bottom: -18px;
 
-            </div>
-            </div>
-        </div>
+}
 
-        <div class="menu">
-            <ul>
-                <li><p class="Discord">Discord: XPotatoX#0001</p></li>
-            </ul>
-        </div>
-    </header>
+.PerguntasERespostas {
+    font-family: sans-serif;
+    color: white;
+    position: relative;
+    bottom: -20px;
+}
 
-        <p class="Introdution"> Hello! Welcome to the <span>Not</span><span1>Allowed</span1>, this is
-            my project website that i'm testing, learning <span2>CSS</span2>/<span3>HTML</span3>/<span4>JS</span4>, be free to give feedback
-            at my GitHub or even Discord (Above)
-        </p>
+.LogoTipo span {
+    color: red;
+}
 
-    <hr>
+.Introdution span {
+    color: red;
+}
 
-    <center>
-        <h1 class="FAQ">F.A.Q</h1>
-    </center>
+.Introdution span1 {
+    color: green;
+}
 
-    <p class="PerguntasERespostas">
-        Q: What is the purpose of this Website Project? <br>
-        A: It is just my test project, while i'm studying HTML, CSS and JavaScript. <br>
-        <br>
-        Q: Will you add more things to this Project? <br>
-        A: Yeah, just check my <a href="https://github.com/1XPotatoX1/XPotatoXWebSite1"> <span>GITHUB</span></a> for updates and stuff
-        <br> <br>
-        Q: What are you learning at the moment of this update? <br>
-        A: Only HTML and CSS, however i'll be starting to learn JS very soon, so i can make buttons and all
-    </p>
+.Introdution span2 {
+    color: orangered;
+}
 
-</body>
+.Introdution span3 {
+    color: cyan;
+}
 
-</html>
+.Introdution span4 {
+    color: yellow;
+}
+
+.PerguntasERespostas span {
+    color: red;
+}
+
+
+/* Icons */
+.LogoTipo, img {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    position: relative;
+    left: -5px;
+    bottom: -1px;
+}
